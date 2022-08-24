@@ -1,0 +1,64 @@
+/* This is the alarm portiion codding */
+#alarmDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is analog and digital clock styling */
+#container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#Analog {
+    position: relative;
+    background-color: red;
+    background: url(wa7.png) no-repeat;
+    height: 50vh;
+    width: 50vh;
+    background-size: 100%;
+    /* margin: auto; */
+}
+
+#minute,
+#hour,
+#second {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    height: 29%;
+    width: 3%;
+    top: 21%;
+    left: 48.45%;
+    /* display: none; */
+}
+
+#minute {
+    height: 35.5%;
+    width: 2%;
+    top: 16%;
+    left: 49%;
+    /* display: none; */
+}
+
+#second {
+    height: 39%;
+    width: 1%;
+    top: 9%;
+    left: 49.5%;
+    /* display: none; */
+}
+
+.time[span]{
+    background-color: green;
+    height: 80px;
+    width : 120px;
+    color: white;
+}
